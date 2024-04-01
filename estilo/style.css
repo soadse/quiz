@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+.rubik-doodle shadow-regular {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  
+
+:root {
+    --cor01: rgb(10, 10, 90);
+    --fonte: "Rubik Doodle Shadow", system-ui;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    width: 100vw;
+    height: 100vh; 
+}
+
+
+.tela-login {
+    background-image: url(../imagens/fundo.jpg);
+    background-size: 300px;
+    background-position: center center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.tela-login > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.342);
+    color: var(--cor01);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 4em;
+    font-weight: normal;
+    font-family: var(--fonte);
+}
+.tela-login > .container-login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 300px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    margin: auto;
+}
+.tela-login > .container-login > .container-login-objetos {
+    color: var(--cor01);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tela-login > .container-login > .container-login-objetos > label {
+    font-weight: bolder;
+    font-size: 2em;
+}
+.tela-login > .container-login > .container-login-objetos > #inome {
+    text-align: center;
+    font-size: 2em;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+}
+.tela-login > .container-login > .container-login-objetos > #iplay {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--cor01);
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    background-color: white;
+}
+.tela-login > .container-login > .container-login-objetos > #iplay:hover {
+    background-color: var(--cor01);
+    color: white;
+}
+.tela-login > .container-login > .container-login-objetos > .erro {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: red;
+    text-align: center;
+}
+
+
+
+
+.tela-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.tela-avatar > h1 {
+    color: var(--cor01);
+    margin-bottom: 100px;
+}
+.tela-avatar > .container-avatar {
+    display: flex;
+}
+.tela-avatar > .container-avatar > .container-sexo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+.tela-avatar > .container-avatar > .container-sexo > label > img {
+    border-radius: 50%;
+    
+}
+.tela-avatar > .container-avatar > .container-sexo > label > img:hover {
+    width: 110px;
+    height: 110px;
+    box-shadow: 10px 10px  10px rgba(0, 0, 0, 0.527);
+}
+.tela-avatar > #opc > input {
+    border: none;
+    font-size: 2em;
+    color: var(--cor01);
+    background-color: transparent;
+    font-weight: bolder;
+    margin-top: 50px;
+    padding: 10px;
+}
+.tela-avatar > #opc > input:hover {
+    background-color: var(--cor01);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all .2s;
+}
+
+
+
+
+
+
+
+
+
+.tela-principal {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.tela-principal > .container-principal {
+    width: 100%;
+}
+.tela-principal > .container-principal > .bem-vindo {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+.tela-principal > .container-principal > .bem-vindo > img {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.tela-principal > .container-principal > .bem-vindo > #texto-bem-vindo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+.tela-principal > .container-principal > .conteudo {
+    margin: auto;
+    width: 300px;
+    height: 550px;
+    border-radius: 10px; 
+}
+.tela-principal > .container-principal > .conteudo  #acertou {
+    text-align: center;
+}
+
+.tela-principal > .container-principal > .conteudo  h1 {
+    text-align: center;
+}
+.tela-principal > .container-principal > .conteudo > .conteudo1, .conteudo2 > .perguntas {
+    line-height: 40px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.tela-principal > .container-principal > .conteudo > .container-confirma {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.tela-principal > .container-principal > .conteudo > .container-confirma > p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tela-principal > .container-principal > .conteudo > .container-confirma > .confirmar  {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.tela-principal > .container-principal > .conteudo > .container-confirma > .confirmar2  {
+    display: none;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.tela-principal > .container-principal > .conteudo > .container-confirma > .confirmar:hover {
+    text-decoration: underline;
+}
+.tela-principal > .container-principal > .conteudo > .container-confirma > .confirmar2:hover {
+    text-decoration: underline;
+}
+.tela-principal > .container-principal > .conteudo > .container-confirma > .prox1 {
+    display: none;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.tela-principal > .container-principal > .conteudo > .container-confirma > .prox1:hover {
+    text-decoration: underline;
+}
+
