@@ -91,13 +91,13 @@ confirmar.style.display = 'block'
 confirma2.style.display = 'none'
 
 function escolheu1(){
-    acertou.innerText = 'Você Errou!'
+    acertou.innerText = '😔Você Errou!😔'
     acertou.style.display = 'none' 
     confirmar.style.display = 'block'
     confirma2.style.display = 'none'  
 }
 function escolheu2(){
-    acertou.innerText = 'Você Acertou!'
+    acertou.innerText = '🏆Você Acertou!🏆'
     acertou.style.display = 'none' 
     confirmar.style.display = 'none'
     confirma2.style.display = 'block'
