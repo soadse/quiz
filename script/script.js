@@ -1,5 +1,7 @@
 var corpo = window.document.body
 var bem_vind = window.document.querySelector('.bem-vindo')
+var h1 = window.document.querySelector('#h1')
+var btn = window.document.querySelector('#btn')
 // TELA DE LOGIN
 var nome = window.document.querySelector('#inome')
 var erro = window.document.querySelector('.erro')
@@ -28,9 +30,8 @@ function pag2() {
 var tela_avatar = window.document.querySelector('.tela-avatar')
 tela_avatar.style.display = 'none'
 var opc = window.document.querySelector('#opc')
-var opc2 = window.document.querySelector('#opc2')
-var opc3 = window.document.querySelector('#opc3')
 opc.style.display = 'none'
+
 
 
 var escolha_avatar
@@ -46,6 +47,8 @@ function menino(escolha_avatar){
     var texto_bem_vindo = window.document.querySelector('#texto-bem-vindo')
     texto_bem_vindo.innerText = `Bem-Vindo ${nome.value}`.toUpperCase()
     corpo.style.background = 'lightblue'
+    h1.style.color = 'darkblue'
+    btn.style.color = 'darkblue'
     bem_vind.style.background = 'darkblue'
 }
 function menina(){
@@ -60,7 +63,10 @@ function menina(){
     var texto_bem_vindo = window.document.querySelector('#texto-bem-vindo')
     texto_bem_vindo.innerText = `Bem-Vindo ${nome.value}`.toUpperCase()
     corpo.style.background = 'pink'
+    h1.style.color = 'palevioletred'
+    btn.style.color = 'palevioletred'
     bem_vind.style.background = 'palevioletred'
+    
 }
 function pag3(){
     tela_avatar.style.display = 'none'

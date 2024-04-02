@@ -135,13 +135,7 @@ body {
     margin: 30px;
 }
 .tela-avatar > .container-avatar > .container-sexo > label > img {
-    border-radius: 50%;
-    
-}
-.tela-avatar > .container-avatar > .container-sexo > label > img:hover {
-    width: 110px;
-    height: 110px;
-    box-shadow: 10px 10px  10px rgba(0, 0, 0, 0.527);
+    border-radius: 50%;   
 }
 .tela-avatar > #opc > input {
     border: none;
@@ -151,13 +145,6 @@ body {
     font-weight: bolder;
     margin-top: 50px;
     padding: 10px;
-}
-.tela-avatar > #opc > input:hover {
-    background-color: var(--cor01);
-    color: white;
-    border-radius: 5px;
-    padding: 10px;
-    transition: all .2s;
 }
 
 

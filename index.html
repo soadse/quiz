@@ -21,16 +21,16 @@
 
 
     <div class="tela-avatar">
-        <h1>Escolha seu personagem</h1>
+        <h1 id="h1">Escolha seu personagem</h1>
         <div class="container-avatar">
 
             <div class="container-sexo">
-                <label for="menino"><img src="imagens/av01.jpg" width="100px" alt=""></label>
+                <label for="menino"><img src="imagens/menino.gif" width="100px" alt=""></label>
                 <input type="radio" name="sexo" id="menino" value="1" onclick="menino()">
             </div>
 
             <div class="container-sexo">
-                <label for="menina"><img src="imagens/av02.jpg" width="100px" alt=""></label>
+                <label for="menina"><img src="imagens/menina.gif" width="100px" alt=""></label>
                 <input type="radio" name="sexo" id="menina" value="2" onclick="menina()">
             </div>
         </div>
@@ -38,8 +38,6 @@
         <div id="opc">
             <input type="button" name="btn" id="btn" value="Continuar" onclick="pag3()">
         </div>
-        <div id="opc2"></div>
-        <div id="opc3"></div>
     </div>
 
 
@@ -48,14 +46,14 @@
     <div class="tela-principal">
         <div class="container-principal">
             <div class="bem-vindo">
-                <img src="imagens/av01.jpg" id="menino-principal" width="100px" alt="">
-                <img src="imagens/av02.jpg" id="menina-principal" width="100px" alt="">
+                <img src="imagens/menino.gif" id="menino-principal" width="100px" alt="">
+                <img src="imagens/menina.gif" id="menina-principal" width="100px"  alt="">
                 <div id="texto-bem-vindo"></div>
             </div>
             <div class="conteudo" id="primeiro">
                 <h1>Que personagens é este?</h1>
                 <div class="conteudo1">
-                    <img src="imagens/luff.jpg" width="300xp" alt="">
+                    <img src="imagens/luff.jpg" width="300xp" alt="" id="img">
                     <div class="perguntas">
                         <input type="radio" name="brasil" id="rio" value="1"
                         onclick="escolheu1()">
